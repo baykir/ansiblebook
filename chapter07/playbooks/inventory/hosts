@@ -1,6 +1,6 @@
-[vagrant]
-web ansible_host=192.168.56.10 ansible_private_key_file=.vagrant/machines/web/virtualbox/private_key
+[proxmox]
+web ansible_host=192.168.10.211
 
-[vagrant:vars]
-ansible_user=vagrant
+[proxmox:vars]
+ansible_user=cloud
 ansible_python_interpreter=/usr/bin/python3
